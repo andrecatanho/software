@@ -15,3 +15,7 @@ location.href="excluir.php"
 function mouseEmCima() {
 	alert ("MOUSE PASSOU EM CIMA!");
 }
+function sair() 
+{
+location.href="php/login.php"
+}

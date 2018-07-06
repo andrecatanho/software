@@ -38,21 +38,19 @@ if(isset($_POST['email']) && empty($_POST['email']) == false) {
 
 ?>
 <body style="background-color:#373f42;color:#FFF">
-		<div style="max-width:350px;margin-top:200px;margin-left:500px;font-size:30px">
-PAGINA DE LOGIN <br/><br/>
+		<div style="margin-left:500px;margin-top:200px;max-width:350px;font-size:25px">
+PAGINA DE LOGIN <br/>
 
-			<form method="POST">
+			<form method="POST" >
 
-				E-mail:
-				<input type="email" name = "email"/><br/><br/>
+				Usuário:
+				<input style = "font-size:25px"; type="email" name = "email" autofocus placeholder="email" /><br/><br/>
 
 				Senha:
-				<input type="password" name = "senha"/><br/><br/>
+				<input style = "font-size:25px"; type="password" name = "senha" maxlength="4" /><br/><br/>
 				
 				<input type="submit" class="btn" value = "Entrar" /><br/><br/>
 				
-				
-
 			</form>
 		</div>	
 </body>

@@ -28,6 +28,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
 	</tr><br/>
 	<input type="button" class="btn" value="Novo Usuário" onClick="Adicionar()" ><br/><br/>
 
+
 	<?php
 	$sql = "SELECT * FROM usuarios";
 	$sql = $pdo->query($sql);
@@ -45,7 +46,8 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
     	}
 	}
 	?>
-</table>	
+</table>
+		<br/><input type="button" class="btn" value="Sair" onClick="sair()" ><br/><br/>	
 </div>
 </body>
 </html>

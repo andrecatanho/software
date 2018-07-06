@@ -5,6 +5,14 @@
 .texto2 {
   font-size:16px;
   }
+form {
+    width:350px;
+    height:210px;
+    background-color:#808080;
+    margin:auto;
+    padding:20px;
+    margin-top:20px;
+}
 
 th, td { 
     border-top: 1px solid #000; 
